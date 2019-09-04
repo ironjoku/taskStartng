@@ -1,0 +1,118 @@
+.body{
+    background-color:goldenrod ;
+    border:3px solid black;
+}
+#add{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.header{
+    background-color:tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.img2{
+    float: right;
+}
+
+.aboutme{
+    color:black;
+    text-decoration-style: dashed;
+  text-align:left;
+}
+.b{
+    font-display: swap;
+}
+.contact{
+    margin:100px 16px;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact-title h1{
+    color: gray;
+    margin-bottom: 10px;
+}
+.contact-form{
+    background: transparent;
+    max-width: 550px;
+    margin: auto;
+}
+form{
+    padding-bottom: 16px;
+    display: block;
+    width: 100%;
+}
+.form-name,.form-email,.form-message{
+    position: relative;
+}
+.form-name:before{
+    content:"\f007";
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 0;
+   
+}
+.form-email:before{
+    content: "\f0e0";
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.form-message:before{
+    content:"\f1d8";
+    position: absolute;
+    top:10px;
+    left: 0;
+}
+form input:focus, form textarea:focus, form input:hover, form textarea:hover{
+border-color: blueviolet;
+}
+form textarea{
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid grey;
+    transition: 0.2s;
+    margin-top: 16px;
+    height: 150px;
+    background-color:whitesmoke;
+    padding: 10px 16px 10px 30px;
+    color: #ffff;
+}
+form input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom:1px solid #444;
+    transition: 0.2s;
+    outline: none;
+    margin-top: 16px;
+    background-color:whitesmoke;
+    position: relative;
+    padding: 10px 16px 10px 30px;
+    color:#ffff;
+}
+form button{
+    border:1px solid #444;
+    transition: 0.2s;
+    padding: 10px 30px;
+    outline:none;
+    margin-top:30px;
+    cursor: pointer;
+    background-color: tomato;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.center-align{
+    text-align: center;
+}
